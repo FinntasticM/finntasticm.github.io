@@ -35,7 +35,7 @@ img {
 
 .button1, .button2, .button3 {
     background-color: rgb(156, 55, 41);
-    padding: 14px 20px;
+    padding: 14px 0px;
     cursor: crosshair;
     border: none;
     text-align: center;
