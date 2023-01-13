@@ -1,12 +1,13 @@
-var target1
-var target2
-var target3
+// Written by Finn M.
+
+var target1;
+var target2;
+var target3;
 
 function onLoad(){ // defines main variables
     const divTargets = [document.getElementById("target1"), document.getElementById("target2"), document.getElementById("target3")];
     divTargets.forEach(onLoadPropertiesDivs);
     [target1, target2, target3] = divTargets;
-    
 }
 
 function onLoadPropertiesDivs(object){ // loads starting properties 
